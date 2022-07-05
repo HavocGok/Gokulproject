@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:ital,wght@1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li, a, button {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #002024;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 10%;
+    color:rgb(117, 4, 4);
+    
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+    display:inline-block ;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3sease 0s;
+}
+
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 23px;
+    background-color: rgb(106, 210, 245);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(164, 234, 247);
+}  
+  .container {
+    padding: 2px 8px;
+    background-color: lightgreen;
+  }
+
+  body{
+    width: 100%;
+    float: left;
+    padding-inline-start: 100px;
+  
+  }
+
+  .own{
+    text-align: center;
+    padding: 200px;
+    display: contents;
+    background-color: aqua;
+    padding-top: 60px;
+
+  }
+
+  h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(238, 0, 0);
+    align-items: center;
+  }
+
+  a{
+    color: rgb(238, 0, 0);
+  }
+
+  footer{
+    padding-bottom: 0px;
+    text-align: end;
+  }
