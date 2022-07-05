@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+	*{
+		margin:0;
+		padding:0;
+		font-family: Arial, Helvetica, sans-serif;
+		box-sizing: border-box;
+    }
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: rgba(2, 74, 92, 0.918);
+        background: url(coc2.jpg);
+        background-size: cover;
+    }
+    input{
+        display: flex;
+        width: 250px;
+        height: 26px;
+        color: rgb(3, 3, 3);
+        margin: 2px;
+        font-size: 20px;
+        border-bottom: 1px solid black;
+        box-shadow: black;
+        background: rgb(186, 219, 228);
+        background: transparent;
+ 
+    }
+    input:hover {
+    box-shadow: 0 8px 16px 0 rgb(3, 76, 82);
+  }
+
+    form{
+        margin-top: 23px;
+        text-align: center;
+        color: black;
+    }
+    
+    button {
+    padding: 9px 23px;
+    background-color: rgba(0,136,169,1);
+    border: rgba(2, 74, 92, 0.918);
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(253, 253, 253);
+}
+
+    /*button{
+        display: flex;
+        width: 50px;
+        height: 25px;
+        color: rgb(8, 8, 8);
+        align-items: center;
+        background-color: blueviolet;
+    }*/
+
+    ::placeholder{
+        color: black;
+    }
+
+    </style>
+</head>
+<body>
+<form>
+	<h1><b>Sign Up</b><h1>
+    <input type="text" name="" placeholder="Username"><br>
+    <input type="email" name="" placeholder="E-mail"><br>
+    <input type="password" name="" placeholder="Password"><br>
+    <input type="password" name=""  placeholder="Confirm Password"><br>
+    <button type="submit">SignUp</button>
+</body>
+</html>
