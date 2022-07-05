@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #282d32;
+    color: #ec4d03;
+}
+ body{
+    color:#282d32;
+ }
+
+.column{
+    padding: 30px;
+    align-items: right;
+    display: block;
+}
+
+button {
+    padding: 9px 23px;
+    background-color: rgb(238, 109, 4);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: #ec4d03;
+}
+ 
+.card-desc {
+        display: block;
+        font-size: 1.2rem;
+        position: absolute;
+        height: 0;
+        top: 0;
+        opacity: 0;
+        padding: 18px 8%;
+        background-color: white;
+        overflow-y: scroll;
+        transition: 0.8s ease;
+      }
+      
+      .card:hover .card-desc {
+        opacity: 0.9;
+        height: 75%;
+      }
+
+button:hover{
+    background-color: rgb(3, 3, 3);
+}
